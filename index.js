@@ -35,6 +35,6 @@ const copiar = (str) => {
 }
 
 tweet.addEventListener('keyup', event=> {
-    caracteres.innerText = `Caracteres restantes: ${180-tweet.value.length}`
+    caracteres.innerText = `Caracteres restantes: ${280-tweet.value.length}`
     
 })
